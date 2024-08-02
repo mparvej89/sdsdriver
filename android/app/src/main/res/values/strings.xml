@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">sdsdriver</string>
+    <string name="title_activity_main">sdsdriver</string>
+    <string name="package_name">sds.driver</string>
+    <string name="custom_url_scheme">sds.driver</string>
+</resources>

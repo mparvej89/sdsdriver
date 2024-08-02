@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "461376469807",
+    "project_id": "sds-driver-92734",
+    "storage_bucket": "sds-driver-92734.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:461376469807:android:d5c0691bb3bef366033fda",
+        "android_client_info": {
+          "package_name": "sds.driver"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCF_hBvOfgPiGLYEAt3dr7YEQo7WiHF4Ro"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

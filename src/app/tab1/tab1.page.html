@@ -1,0 +1,138 @@
+<ion-header [translucent]="true">
+  <ion-toolbar style="--background:#4854e0; color:white; ">
+    
+    <ion-row>
+      <ion-col size="2" style="text-align:right;"> 
+      </ion-col>
+      <ion-col size="8" style="padding-top:10px;"><ion-title>Load</ion-title></ion-col>
+      <ion-col size="2" style="text-align:right;"> 
+        <ion-icon size="large" name="refresh-outline" onclick="refresh()" id="refreshbutt" style="display:none; float:right;" ></ion-icon> 
+      </ion-col>
+    </ion-row>
+
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <!--ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Tab 1</ion-title>
+    </ion-toolbar>
+  </ion-header-->
+
+  <!--app-explore-container name="Tab 1 page"></app-explore-container-->
+
+  <div id="dash-body" style=" width:96%; margin-left:2%; ">
+    <br/>
+
+    <img style="margin-left:15%;" src="assets/logo.png" width="70%" /><br/>
+    <div style="width:100%; text-align:center;">Driver App</div>
+    
+    <br/>
+
+    <ion-button expand="full" [routerLink]="['/login']" >Signin</ion-button>
+    <ion-button color="secondary" [routerLink]="['/signup']" expand="full"  >Create Account</ion-button>
+
+    
+    <br/>
+
+    <ion-row style="text-align:center;">
+      <ion-col size="4"> <ion-icon color="primary" size="large" name="accessibility-outline"></ion-icon><br/>Customer Management </ion-col>
+      <ion-col size="4"> <ion-icon color="primary" size="large" name="speedometer-outline"></ion-icon><br/>Driver Management</ion-col>
+      <ion-col size="4"> <ion-icon color="primary" size="large" name="bus-outline"></ion-icon><br/>Carrier Management </ion-col>
+    </ion-row>
+
+    <ion-row style="text-align:center; margin-top:10px; ">
+      <ion-col size="4"> <ion-icon color="primary" size="large" name="gift-outline"></ion-icon><br/>Shipper Management </ion-col>
+      <ion-col size="4"> <ion-icon color="primary" size="large" name="cube-outline"></ion-icon><br/>Consignee Management</ion-col>
+      <ion-col size="4"> <ion-icon color="primary" size="large" name="cash-outline"></ion-icon><br/>Pay Management </ion-col>
+    </ion-row>
+
+    <ion-row style="text-align:center; margin-top:10px; ">
+      <ion-col size="4"> <ion-icon color="primary" size="large" name="pie-chart-outline"></ion-icon><br/>YearEnd Reporting </ion-col>
+      <ion-col size="4"> <ion-icon color="primary" size="large" name="bar-chart-outline"></ion-icon><br/>Expense Management</ion-col>
+      <ion-col size="4"> <ion-icon color="primary" size="large" name="document-text-outline"></ion-icon><br/>Summary Management </ion-col>
+    </ion-row>
+
+    <br/>
+
+    <p style="text-align:center;">
+      <a target="_BLANK" style="text-decoration: none;" href="https://smartdispatchsystem.com">SMARTDISPATCHSYSTEM.COM</a>
+    </p>
+
+  </div>
+
+  <!--ion-card color="light">
+    
+   
+
+    <ion-row>
+      <ion-col size="8">
+        <ion-button  size="small" color="medium" >LD90988766</ion-button>
+        <ion-button  size="small" color="medium" >Ref 706</ion-button>
+      </ion-col>
+      <ion-col size="4">
+        <ion-button  size="small" style="float:right;" color="danger">Open</ion-button>
+      </ion-col>
+    </ion-row>
+
+    <div style="border-top:1px solid silver;"></div>
+
+    <ion-row>
+      <ion-col size="5">
+        <b>NewYork, NY</b><br/>
+        <span>1-Jan-2024</span>
+      </ion-col>
+      <ion-col size="2" style="text-align:center;">
+        <ion-icon name="arrow-forward-circle-outline" color="primary" size="large"></ion-icon>
+      </ion-col>
+      <ion-col size="5" style="text-align:right;">
+        <b>Toronto, ON</b><br/>
+        <span>3-Jan-2024</span>
+      </ion-col>
+    </ion-row>
+
+    
+
+    <ion-row>
+      <ion-col size="10">
+        <span style="font-size:16px;"> 
+          <ion-icon name="person-outline" style="font-size:20px;" ></ion-icon> Green Software Tech.
+        </span>
+      </ion-col>
+      <ion-col size="2">
+        <ion-button size="small" color="medium" onclick="openload(1)">
+        <ion-icon style="float:right;" name="arrow-forward-outline" size="small"></ion-icon>
+        </ion-button>
+      </ion-col>
+    </ion-row>
+
+    <div style="border-top:1px solid silver;"></div>
+  
+    <ion-row>
+      <ion-col size="6">
+        <ion-icon name="speedometer-outline"></ion-icon> Shubham
+      </ion-col>
+      <ion-col size="3">
+        <img src="https://static-00.iconduck.com/assets.00/truck-front-icon-1743x2048-zro4qwr6.png" width="12px"> 2341
+        
+      </ion-col>
+      <ion-col size="3">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6bJUVtCxHq1kS0BMzKP-sSEa6DQOcU1wOkA&s" width="18px"> 9090
+      </ion-col>
+    </ion-row>
+  
+  </ion-card-->
+
+
+
+
+
+
+
+
+  <div id="load-body"></div>
+
+
+
+</ion-content>

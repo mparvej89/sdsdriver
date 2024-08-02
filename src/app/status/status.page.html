@@ -1,0 +1,48 @@
+<ion-header [translucent]="true">
+  <ion-toolbar style="--background:#4854e0; color:white; " >
+    
+
+    <ion-row>
+      <ion-col size="10" style="padding-top:10px;"><ion-title>My Profile</ion-title></ion-col>
+      <ion-col size="2" style="text-align:right;"> 
+        <!--ion-icon [routerLink]="['/tabs/tab1']" size="large" name="close-outline"></ion-icon--> 
+        <a style="color:white;" href="tabs/tab1/"><ion-icon size="large" name="close-outline"></ion-icon></a>
+      </ion-col>
+    </ion-row>
+
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <!--ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">status</ion-title>
+    </ion-toolbar>
+  </ion-header-->
+
+
+<ion-item lines="full">
+    <ion-label position="stacked">Current Password</ion-label>
+    <ion-input id="oldpass" type="password" required></ion-input>
+</ion-item>
+
+<ion-item lines="full">
+<ion-label position="stacked">New Password</ion-label>
+<ion-input id="pass" type="password" required></ion-input>
+</ion-item>
+
+<ion-item lines="full">
+<ion-label position="stacked">Confirm New Password</ion-label>
+<ion-input id="conpass" type="password" required></ion-input>
+</ion-item>
+
+<ion-button onclick="changepass()" expand="block" >Change Password</ion-button>
+
+
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
+By Clicking I Confirm To Delete My Driver Account<br/>
+<ion-button onclick="delacc()" color="danger" expand="block" >Delete My Account</ion-button>
+
+
+</ion-content>

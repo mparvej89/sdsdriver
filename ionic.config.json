@@ -1,0 +1,7 @@
+{
+  "name": "sdsdriver",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

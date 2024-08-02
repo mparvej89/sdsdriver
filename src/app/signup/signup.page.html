@@ -1,0 +1,59 @@
+<ion-header [translucent]="true">
+  <ion-toolbar style="--background:#4854e0; color:white; ">
+    
+    <ion-row>
+      <ion-col style="padding-top:10px;"><ion-title>Create Account</ion-title></ion-col>
+      <ion-col size="2" style="text-align:right;"> 
+        <ion-icon [routerLink]="['/tabs/tab1']" size="large" name="close-outline"></ion-icon> 
+      </ion-col>
+    </ion-row>
+
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <!--ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">signup</ion-title>
+    </ion-toolbar>
+  </ion-header-->
+
+
+  <ion-list style="width:96%; margin-left:2%;" >
+    <ion-item >
+      <ion-label position="floating">First Name <i style="color:red;">*</i></ion-label>
+      <ion-input id="fname" type="text" ></ion-input>
+    </ion-item>
+    <ion-item >
+      <ion-label position="floating">Lastname</ion-label>
+      <ion-input id="lname" type="text" ></ion-input>
+    </ion-item>
+    <ion-item >
+      <ion-label position="floating">Email <i style="color:red;">*</i></ion-label>
+      <ion-input id="email" type="email" ></ion-input>
+    </ion-item>
+    <ion-item >
+      <ion-label position="floating">Username <i style="color:red;">*</i></ion-label>
+      <ion-input id="username" type="text" ></ion-input>
+    </ion-item>
+    <ion-item >
+      <ion-label position="floating">Password <i style="color:red;">*</i></ion-label>
+      <ion-input id="pass" type="password" ></ion-input>
+    </ion-item>
+    <ion-item >
+      <ion-label position="floating">Confirm Password <i style="color:red;">*</i></ion-label>
+      <ion-input id="conpass" type="password" ></ion-input>
+    </ion-item>
+    
+    <ion-item >
+      <ion-label position="floating">Referral ID</ion-label>
+      <ion-input id="ref" type="text" ></ion-input>
+    </ion-item>
+  </ion-list>
+
+  By Creating Account You Are Agree With All <a href="https://smartdispatchsystem.com/terms-of-service/" target="_BLANK" >Terms Of Service</a> And <a href="https://smartdispatchsystem.com/privacy-policy-2/" target="_BLANK" >Privacy Policy</a><br/><br/>
+
+  <ion-button expand="block" onclick="signup()" >Create Account</ion-button>
+
+
+</ion-content>
